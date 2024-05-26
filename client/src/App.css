@@ -1,0 +1,25 @@
+.App {
+  position: relative;
+  overflow-x: clip;
+  background-color: black;
+}
+
+.App>:nth-child(1) {
+  background: #004AAD;
+  position: relative;
+}
+
+.white-gradient {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background: #0b0d0e;
+  filter: blur(100px);
+  border-radius: 100px;
+}
+
+.btn-info {
+  background: #fff !important;
+  border: 1px solid #0b0d0e !important;
+  color: #004AAD !important;
+}
